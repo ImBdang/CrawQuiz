@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;   
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 100%; 
+    background-color: grey; 
+}
+
+.cautraloi{
+    display: flex;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 10px;  
+    font-size: 20px;
+}
+
+.question p {
+    margin: 0;
+}
+
+.answer-option {
+    margin: 2px 0;
+}
+
+.answer-option input {
+    margin-right: 10px;
+}

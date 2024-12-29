@@ -1,0 +1,564 @@
+{
+    "code": "success",
+    "message": "Request success!",
+    "draw": 1,
+    "next": 2,
+    "count": 1,
+    "recordsTotal": 769312,
+    "recordsFiltered": 1,
+    "data": [
+        {
+            "id": 831848,
+            "class_plan_activity_id": 0,
+            "av": 0,
+            "class_id": 1030,
+            "time": 0,
+            "questions": [
+                30953,
+                31381,
+                30982,
+                30951,
+                31426,
+                30963,
+                30976,
+                31711,
+                30959,
+                30964,
+                31403,
+                30980,
+                31734,
+                31595,
+                31404
+            ],
+            "course_id": 20127,
+            "status": -1,
+            "test": [
+                {
+                    "id": 30951,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">ACL (Access Control List) là gì?<br><br><br><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->Danh sách các thiết bị mạng<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Danh sách phần mềm đã cài đặt<br><!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->Danh sách các quyền truy cập cho người dùng và nhóm<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Danh sách các tệp tin trên ổ đĩa<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 1,
+                    "code": ""
+                },
+                {
+                    "id": 30953,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Vì sao SID được sử dụng trong Windows?<br><br><br><br><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->Để mã hóa thông tin<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Để lưu trữ dữ liệu<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->Để phân quyền và quản lý quyền truy cập<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Để xác thực địa chỉ IP<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 30959,
+                    "question_number": 0,
+                    "question_direction": "<p class=\"MsoNormal\"><!--StartFragment-->Khi một người dùng cố gắng truy cập tài nguyên, Windows sẽ kiểm tra gì đầu tiên?<br><br><br><br><o:p></o:p><!--EndFragment--><br><o:p></o:p></p><!--EndFragment--><!--StartFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->Thời gian truy cập<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Tên người dùng<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->SID của người dùng và quyền trong ACL<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Địa chỉ IP của người dùng<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 30963,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">ACL có thể chứa các loại quyền nào?<br><br><br><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->Chỉ quyền thực thi<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Chỉ quyền đọc<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->Chỉ quyền ghi<br><!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Quyền đọc, ghi, thực thi<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 30964,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Nếu một SID bị xóa, điều gì sẽ xảy ra?<br><br><br><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->SID sẽ tự động được khôi phục<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Người dùng vẫn có quyền truy cập<br><!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->Tất cả quyền truy cập của người dùng đó sẽ bị mất<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Người dùng không thể đăng nhập vào máy tính<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 30976,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Tại sao tài khoản \"Administrator\" thường được tạo sẵn?<br><br><br><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->Để chạy ứng dụng<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Để tạo ra tài khoản mới<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->Để quản lý hệ thống và thực hiện các tác vụ cấu hình<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Để cung cấp quyền truy cập cho người dùng thông thường<br><!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 30980,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Công cụ nào được sử dụng để quản lý tài khoản nhóm trong Active Directory?<o:p></o:p></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment--><span>&nbsp;</span>Device Manager<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment--><span>&nbsp;</span>Event Viewer<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment--><span>&nbsp;</span>Active Directory Users and Computers&nbsp;<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<!--StartFragment--><p class=\"MsoNormal\"><span>&nbsp;</span>Task Manager<o:p></o:p></p><!--EndFragment-->"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 30982,
+                    "question_number": 0,
+                    "question_direction": "<p>Khi tạo mật khẩu cho người dùng nếu ta tích vào 2 tùy chọn như trong hình và nhấn Next thì chuyện gì sẽ xảy ra?</p><figure class=\"image image-style-align-center\"><img src=\"108025\" alt=\"108025|serverAws\" data-org=\"serverAws\"></figure>",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p>Người dùng không đổi được mật khẩu &nbsp;và mật khẩu này sẽ không hết hạn&nbsp;</p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Người dùng có đổi được mật khẩu &nbsp;và mật khẩu này sẽ không hết hạn&nbsp;<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->Người dùng phải đổi mật khẩu trong lần đăng nhập tiếp theo &nbsp;và mật khẩu này sẽ không hết hạn&nbsp;<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Người dùng này bị vô hiệu hóa<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 3,
+                    "code": ""
+                },
+                {
+                    "id": 31381,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Tài khoản người dùng tạo sẵn nào thường không được khuyến nghị sử dụng cho các tác vụ hàng ngày?<br><br><br><br><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->Backup Operator<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Administrator<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->User<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Guest<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 31403,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Tài khoản người dùng miền cho phép người dùng làm gì?<br><br><br><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->Chỉ sử dụng các ứng dụng cục bộ<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Chỉ gửi email<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->Truy cập vào các tài nguyên và dịch vụ trong toàn bộ miền<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Chỉ truy cập vào máy tính cục bộ<br><!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 31404,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Khi tạo một tài khoản người dùng mới, thông tin nào sau đây là bắt buộc?<o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment--><span>&nbsp;</span>Địa chỉ nhà<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment--><span>&nbsp;</span>Số điện thoại<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment--><span>&nbsp;</span>Username và Password<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment--><span>&nbsp;</span>Địa chỉ email<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 31426,
+                    "question_number": 0,
+                    "question_direction": "<p>Nếu ta nhập thông tin User như hình bên dưới. Thì tài khoản đăng nhập vào domain là gì?</p><figure class=\"image image-style-align-center\"><img data-org=\"serverAws\" src=\"108957\" alt=\"108957|serverAws\"></figure>",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p>Nguyen Quoc Hung</p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p>Hung</p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p>@bkaptech.vn</p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p>hungnq</p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 3,
+                    "code": ""
+                },
+                {
+                    "id": 31595,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Tại sao việc thiết lập chính sách khóa tài khoản là quan trọng trong ADDS?<br><o:p></o:p></p><!--EndFragment-->",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->Để tăng cường khả năng sử dụng mạng<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Để dễ dàng theo dõi hoạt động của người dùng<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->Để ngăn chặn các cuộc tấn công bằng cách khóa tài khoản sau nhiều lần đăng nhập không thành công<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Để giảm thiểu số lượng tài khoản người dùng<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 2,
+                    "code": ""
+                },
+                {
+                    "id": 31711,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p class=\"MsoNormal\">Trong Group Policy Management Editor, chính sách khóa tài khoản ở mục nào?</p><p class=\"MsoNormal\"><span>&nbsp;</span><!--EndFragment--></p><!--EndFragment--><figure class=\"image\"><img src=\"109918\" alt=\"109918|serverAws\" data-org=\"serverAws\"></figure><!--EndFragment--><p>&nbsp;</p>",
+                    "question_type": "radio",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p><!--StartFragment-->User Configuration &gt; Policies &gt; Windows Settings &gt; Security Settings &gt; Local Policies<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p><!--StartFragment-->Computer Configuration &gt; Administrative Templates &gt; System<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p><!--StartFragment-->User Configuration &gt; Administrative Templates &gt; Control Panel<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p><!--StartFragment-->Computer Configuration &gt; Policies &gt; Windows Settings &gt; Security Settings &gt; Account Policies &gt; Account Lockout Policy<!--EndFragment--></p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 3,
+                    "code": ""
+                },
+                {
+                    "id": 31734,
+                    "question_number": 0,
+                    "question_direction": "<!--StartFragment--><p>Giả sử tài khoản ngưởi dùng “ptnghia” được cấu hình khóa tài khoản với các thuộc tính được cài đặt có giá trị như sau:</p><p class=\"MsoNormal\">Account Lockout Threshold = 5<o:p></o:p></p><p class=\"MsoNormal\">Account Lockout Duration = 30 minutes<o:p></o:p></p><p class=\"MsoNormal\">Reset Account Lockout Counter After = 30 minutes<o:p></o:p></p><p>Phát biểu nào dưới đây là đúng nếu chúng ta thực thi chính sách này? (Chọn 2 đáp án)</p><p>&nbsp;</p><!--EndFragment-->",
+                    "question_type": "checkbox",
+                    "answer_option": [
+                        {
+                            "id": "1",
+                            "value": "<p>Tài khoản <!--StartFragment-->“ptnghia”<!--EndFragment--> được phép đăng nhập sai tối đa 5 lần trong vòng 30 phút</p>"
+                        },
+                        {
+                            "id": "2",
+                            "value": "<p>Nếu tài khoản <!--StartFragment-->“ptnghia” bị khóa, nó sẽ được tự động mở khóa sau 30 phút<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "3",
+                            "value": "<p>Nếu t<!--StartFragment-->ài khoản “ptnghia” bị khóa, nó sẽ không thể được tự động mở khóa mà cần tài khoản quản trị can thiệp<!--EndFragment--></p>"
+                        },
+                        {
+                            "id": "4",
+                            "value": "<p>Tài khoản sẽ bị cấm đăng nhập trong 30 phút</p>"
+                        }
+                    ],
+                    "shuff": null,
+                    "part": 0,
+                    "group_id": 0,
+                    "media": null,
+                    "config": {
+                        "cols": 2,
+                        "invertedAnswer": true
+                    },
+                    "skill": null,
+                    "cdr": 3,
+                    "code": ""
+                }
+            ]
+        }
+    ]
+}
