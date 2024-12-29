@@ -5,6 +5,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 
 class Login:
     def __init__(self, tk, mk) -> None:
+
         self.url = "https://apps.ictu.edu.vn:9087/ionline/api/login"
         self.head = {
             'Accept': 'application/json, text/plain, */*',
@@ -31,6 +32,7 @@ class Login:
         }
 
     def login(self):
+
         res = re.post(url=self.url, headers=self.head, data=json.dumps(self.data))
         if res.status_code == 200:
             res = res.json()
@@ -38,6 +40,30 @@ class Login:
             with open(f"{current_dir}/../../data/token.txt", "w") as f:
                 f.write(str(token))
                 print("Login complete\n")
+                urlPro = "https://apps.ictu.edu.vn:9087/ionline/api/user-profile/"
+                headInfo = {
+                    "Accept": "application/json, text/plain, */*",
+                    "Accept-Encoding": "gzip, deflate, br, zstd",
+                    "Accept-Language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5",
+                    "Authorization": "Bearer " + token,
+                    "Connection": "keep-alive",
+                    "Host": "apps.ictu.edu.vn:9087",
+                    #"If-None-Match": 'W/"260-LiQZXbJfrCdLfMuAk+ezDX0uiPo"',
+                    "Origin": "https://lms.ictu.edu.vn",
+                    "Referer": "https://lms.ictu.edu.vn/",
+                    'Sec-CH-UA': '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+                    "Sec-CH-UA-Mobile": "?0",
+                    'Sec-CH-UA-Platform': '"Linux"',
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors',
+                    'Sec-Fetch-Site': 'same-site',
+                    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+                    "X-APP-ID": "7040BD38-0D02-4CBE-8B0E-F4115C348003"
+                }
+                info_res = re.get(url=urlPro, headers=headInfo)
+                info_res = info_res.json()
+                student_id = info_res["data"][0]["id"]
+                return student_id
         else:
             print(f"Login failed, " + str(res.status_code))
             exit()
@@ -107,6 +133,7 @@ class Login:
         urlInfo = "https://apps.ictu.edu.vn:9087/ionline/api/class-students/"
         urlMng = "https://apps.ictu.edu.vn:9087/ionline/api/class/"
 
+
         paramsInfo = {
             "limit": 1000,
             "paged": 1,
@@ -120,6 +147,7 @@ class Login:
         }
 
         response = re.get(url=urlInfo, headers=headInfo, params=paramsInfo)
+
         if (response.status_code == 200):
             print("Lay thong tin mon hoc thanh cong\n\n")
             response = response.json()

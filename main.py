@@ -46,7 +46,7 @@ def run(config, args):
                 if i < (config["loop"]-1):
                     time.sleep(args.speed)
                 
-def menu(class_id, class_name):
+def menu(class_name):
     print("Danh sach cac mon hoc la: \n")
     index = 1
     for i in class_name:
@@ -54,12 +54,12 @@ def menu(class_id, class_name):
         index += 1
     print(f"\t0. Exit\n\n")
 
-def preProcess(course, parser, args, config, class_id):
+def preProcess(course, parser, args, config, class_id, student_id, c):
     week = input("Nhap tuan muon lay: ")
     loop = input("Nhap so lan muon lay: ")
-    idsv = input("Nhap id cua sinh vien: ")
+    config = make_config(args, class_id[c-1], student_id)
     args = parser.parse_args([
-        "--id_sv", idsv,
+        "--id_sv", str(config["Student_id"]),
         "--loop", loop,
         "--week", week,
         "--course", str(course)
@@ -68,7 +68,7 @@ def preProcess(course, parser, args, config, class_id):
     # for arg, value in vars(args).items():
 
     #     print(f"{arg}: {value}")
-    config = make_config(args, class_id)
+    config = make_config(args, class_id[c-1], student_id)
     # print("config items")
     # for key, value in config.items():
     #     print(f"{key}: {value}")
@@ -82,12 +82,13 @@ def preProcess(course, parser, args, config, class_id):
         elif (exitCode == "y"):
             loop = input("Nhap so lan lay: ")
             args = parser.parse_args([
-                "--id_sv", idsv,
+                "--id_sv", str(config["Student_id"]),
                 "--loop", loop,
                 "--course", str(course),
                 "--week", week,
                 "--checkpoint", "True"
             ])
+            config = make_config(args, class_id[c-1], student_id)
             run(config, args)
  
 
@@ -104,12 +105,12 @@ if __name__ == "__main__":
     tk = input("\nVui long dang nhap\n\nTai khoan: ")
     mk = getpass.getpass("Mat khau: ")
     log = Login(tk, mk)
-    log.login()
-    config = make_config(args, 0)
+    student_id = log.login()
+    config = make_config(args, 0, student_id)
     log.getVer(config)
     class_id, class_name, course_id = log.getInfo(config, hocky)
     while True:
-        menu(course_id, class_name)
+        menu(class_name)
         c = input("Chon mon hoc cua ban: ")
         c = int(c)
         if (c == 0):
@@ -117,7 +118,8 @@ if __name__ == "__main__":
         elif (c > len(course_id)):
             print("Nhap khong hop le, vui long nhap lai")
         else:
-            preProcess(course_id[c-1], parser, args, config, class_id[c-1])
+            preProcess(course_id[c-1], parser, args, config, class_id, student_id, c)
+
     
 
     

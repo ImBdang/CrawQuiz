@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-def make_config(args, class_id):
+def make_config(args, class_id, student_id):
    
     config = dict()
 
@@ -18,7 +18,7 @@ def make_config(args, class_id):
     config["time"] = 0
     config["Course_id"] = args.course
     config["Class_id"] = class_id
-    config["Student_id"] = 7046
+    config["Student_id"] = student_id
     config["ClassAc_id"] = 0
     config["week"] = args.week
     config["av"] = args.av
